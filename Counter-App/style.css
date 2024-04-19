@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  height: 60vh;
+}
+
+#counter__value {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+#counter__Btn {
+  margin: 20px;
+}
+
+button {
+  background-color: #0ff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 7px;
+  margin: 0 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#increment-decrement {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+input {
+  width: 5rem;
+  height: 2rem;
+  font-size: 1rem;
+}
